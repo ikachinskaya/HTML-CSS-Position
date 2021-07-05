@@ -5,28 +5,31 @@
   margin: 0;
   padding: 0;
 }
+body {
+  padding: 30px;
+}
 .nav-list {
   font-size: 0;
 }
 .nav-list-item {
   display: inline-block;
   font-size: 16px;
-  background: yellowgreen;
+  background: #47986D;
   border: 1px solid;
   position: relative;
 }
 .nav-list-item:hover {
-  background: green;
+  background: #3C805B;
 }
 .link {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   padding: 10px 30px;
   color: white;
   width: 130px;
   text-align: center;
-  /* overflow: hidden;
-  text-overflow: ellipsis; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .sub-nav-list {
   display: none;
@@ -39,4 +42,7 @@
   display: block;
   left: 100%;
   top: 0%;
+}
+.text {
+  margin: 50px 0px;
 }
